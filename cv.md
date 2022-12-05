@@ -31,10 +31,18 @@ alert(sayHi('Artem'));
 
 ## **Work experience**
 
-- _The Odin Project: Rock, paper, scissors_ —[TBD](#)
+- _The Odin Project: Rock, paper, scissors_ — [TBD](#)
 
 - _The Odin Project: Sketchbook_ — [TBD](#)
 
 - _The Odin Project: Simple Calculator_ — [TBD](#)
 
 - _Skyeng teacher_ — 2021 - 2022
+
+## **Education**
+
+- _State University of Management_, law major — 2020 - 2024
+
+- _The Odin Project_ — 2022
+
+- _Rolling Scopes School_ — 2022 - 2023
