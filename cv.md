@@ -18,3 +18,13 @@ That's how I decided to try myself in _frontend development_.
 - Git, GitHub
 - HTML5, CSS3
 - JavaScript
+
+## **Code examples**
+
+```
+function sayHi(yourName) {
+  return `Hello, my dear friend ${yourName}`;
+}
+
+alert(sayHi('Artem'));
+```
