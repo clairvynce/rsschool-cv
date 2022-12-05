@@ -46,3 +46,9 @@ alert(sayHi('Artem'));
 - _The Odin Project_ — 2022
 
 - _Rolling Scopes School_ — 2022 - 2023
+
+## **Language**
+
+1. Russian - _native_
+2. English - _advanced_
+3. Chinese - _elementary_
