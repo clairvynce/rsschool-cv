@@ -71,6 +71,8 @@ body {
 
 .header__contacts-box {
   margin-left: auto;
+
+  text-align: right;
 }
 
 .header__image {
@@ -131,10 +133,22 @@ body {
   gap: 2rem;
 }
 
-.skills__list {
+.skills__list,
+.language__list,
+.contacts__list {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
 
   list-style: none;
+}
+
+.contacts__link:link,
+.contacts__link:visited {
+  color: var(--text-color-regular);
+}
+
+.contacts__link:hover,
+.contacts__link:active {
+  text-decoration: none;
 }
