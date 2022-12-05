@@ -3,8 +3,8 @@
 ## **Contact me**
 
 Location: Moscow, Russia\
-Email: clairvynce@gmail.com
-Telegram: @clairvynce
+Email: clairvynce@gmail.com\
+Telegram: @clairvynce\
 Discord: clairvynce#6802
 
 ## **About me**
