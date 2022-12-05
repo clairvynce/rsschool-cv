@@ -10,7 +10,7 @@
   font-size: 62.5%;
 
   --cv-bg-white: #fff;
-  --body-bg-red: #e30a0a; 
+  --body-bg: #444; 
   --text-color-regular: #000;
   --text-weight-regular: 400;
   --text-weight-accent: 600;
@@ -23,7 +23,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   line-height: 1.4;
 
-  background-color: var(--body-bg-red);
+  background-color: var(--body-bg);
 }
 
 .container {
@@ -150,5 +150,24 @@ body {
 
 .contacts__link:hover,
 .contacts__link:active {
+  text-decoration: none;
+}
+
+.cv__footer {
+  display: flex;
+  grid-column: 1 / -1;
+}
+
+.footer__logo-box {
+  margin-left: auto;
+}
+
+.footer__link:link,
+.footer__link:visited {
+  color: var(--text-color-regular);
+}
+
+.footer__link:hover,
+.footer__link:active {
   text-decoration: none;
 }
