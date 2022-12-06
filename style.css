@@ -135,7 +135,8 @@ body {
 
 .skills__list,
 .language__list,
-.contacts__list {
+.contacts__list,
+.navigation__list {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
@@ -144,12 +145,20 @@ body {
 }
 
 .contacts__link:link,
-.contacts__link:visited {
+.contacts__link:visited,
+.navigation__link:link,
+.navigation__link:visited,
+.footer__link:link,
+.footer__link:visited {
   color: var(--text-color-regular);
 }
 
 .contacts__link:hover,
-.contacts__link:active {
+.contacts__link:active,
+.navigation__link:hover,
+.navigation__link:active,
+.footer__link:hover,
+.footer__link:active {
   text-decoration: none;
 }
 
@@ -160,16 +169,6 @@ body {
 
 .footer__logo-box {
   margin-left: auto;
-}
-
-.footer__link:link,
-.footer__link:visited {
-  color: var(--text-color-regular);
-}
-
-.footer__link:hover,
-.footer__link:active {
-  text-decoration: none;
 }
 
 .code__codebox {
