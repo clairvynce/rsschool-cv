@@ -171,3 +171,14 @@ body {
 .footer__link:active {
   text-decoration: none;
 }
+
+.code__codebox {
+  padding: 1.2rem;
+  background-color: #ccc;
+  border-radius: 12px;
+}
+
+.code__wrapper {
+  display: inline-flex;
+  white-space: pre-line;
+}
