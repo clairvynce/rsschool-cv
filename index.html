@@ -4,9 +4,158 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>RS School | CV</title>
 </head>
 <body>
-  <h1>Ilya Larin</h1>
+  <div class="container">
+    <div class="cv__wrapper">
+      <header class="cv__header">
+        <div class="header__image-box">
+          <img class="header__image" src="./assets/img/avatar.jpg" alt="My avatar">
+        </div>
+        <div class="header__intro-box">
+          <h1 class="heading__primary header__name">Ilya Larin</h1>
+          <p class="header__profession">Junior Frontend Developer</p>
+        </div>
+        <div class="header__contacts-box">
+          <h2 class="heading__secondary contacts__heading">contact me</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item text__primary">
+              <span class="text__accent">Email: </span>
+              <a href="#" class="contacts__link">clairvynce@gmail.com</a>
+            </li>
+            <li class="contacts__item text__primary">
+              <span class="text__accent">Telegram: </span>
+              <a href="#" class="contacts__link">t.me/clairvynce</a>
+            </li>
+            <li class="contacts__item text__primary">
+              <span class="text__accent">Phone number: </span>
+              <a href="#" class="contacts__link">+7 999 888 77 66</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="cv__body">
+        <section class="section__about">
+          <h2 class="heading__secondary heading__about">about me</h2>
+          <p class="text__primary about__text">
+            Hi, I am a student at <span class="text__accent">State University of Management</span> (Moscow, Russia).
+          </p>
+          <p class="text__primary about__text">
+            I'm 20 years old and I want to try out something new since I <span class="text__accent">constantly seek for challenges.</span>
+          </p>
+          <p class="text__primary about__text">
+            That's how I decided to try myself in <span class="text__accent">frontend development.</span>
+          </p>
+        </section>
+        <section class="section__work-exp">
+          <h2 class="heading__secondary heading__work-exp">work experience</h2>
+          <article class="cv__card">
+            <p class="text__primary card__duration">04/2021 - 10/2022</p>
+            <h3 class="text__accent card__title">Skyeng Teacher</h3>
+            <p class="text__primary card__description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, impedit officia eligendi molestias quo molestiae.
+            </p>
+          </article>
+          <article class="cv__card">
+            <p class="text__primary card__duration">09/2022 - 10/2022</p>
+            <h3 class="text__accent card__title">The Odin Project: Rock, paper, scissors</h3>
+            <p class="text__primary card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis libero maiores quisquam perferendis, labore itaque!
+            </p>
+          </article>
+          <article class="cv__card">
+            <p class="text__primary card__duration">10/2022 - 10/2022</p>
+            <h3 class="text__accent card__title">The Odin Project: Simple Calculator</h3>
+            <p class="text__primary card__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum maiores impedit, a perspiciatis eos alias?
+            </p>
+          </article>
+          <article class="cv__card">
+            <p class="text__primary card__duration">11/2022 - 12/2022</p>
+            <h3 class="text__accent card__title">The Odin Project: Sketchbook</h3>
+            <p class="text__primary card__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam esse enim quis eligendi mollitia facere?
+            </p>
+          </article>
+        </section>
+        <section class="section__code">
+          <h2 class="heading__secondary heading__code">code example</h2>
+          <figure class="code__codebox">
+            <pre class="code__wrapper">
+              <code class="code__text text__primary">'use strict';
+                function sayHi(yourName) {
+                  return `Hello my friend ${yourName}`;
+                }
+
+                alert(sayHi('Artem'));
+              </code>
+            </pre>
+          </figure>
+        </section>
+        <section class="section__education">
+          <h2 class="heading__secondary heading__education">education</h2>
+          <article class="ed__card">
+            <p class="text__primary ed__duration">2020 - 2024</p>
+            <h3 class="ed__title text__accent">State University of Management</h3>
+          </article>
+          <article class="ed__card">
+            <p class="text__primary ed__duration">2022 - today</p>
+            <h3 class="ed__title text__accent">The Odin Project</h3>
+          </article>
+          <article class="ed__card">
+            <p class="text__primary ed__duration">2022 - today</p>
+            <h3 class="ed__title text__accent">Rolling Scopes School</h3>
+          </article>
+        </section>
+      </main>
+      <aside class="cv__sidebar">
+        <section class="section__skills">
+          <h2 class="heading__secondary heading__skills">hard skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item text__primary">Visual Studio Code</li>
+            <li class="skills__item text__primary">Git and GitHub</li>
+            <li class="skills__item text__primary">HTML5, CSS3</li>
+            <li class="skills__item text__primary">JavaScript</li>
+          </ul>
+        </section>
+        <section class="section__language">
+          <h2 class="heading__secondary heading__language">languages</h2>
+          <ul class="language__list">
+            <li class="language__item text__primary">
+              Russian - <span class="text__accent">native</span>
+            </li>
+            <li class="language__item text__primary">
+              English - <span class="text__accent">advanced</span>
+            </li>
+            <li class="language__item text__primary">
+              Chinese - <span class="text__accent">elementary</span>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <footer class="cv__footer">
+        <div class="footer__info-box">
+          <p class="text__primary">
+            Created on 06.12.2022 by
+            <a href="https://github.com/clairvynce" target="_blank" class="footer__link">@clairvynce</a>
+          </p>
+          <p class="text__primary">
+            Design by
+            <a href="https://dribbble.com/przegendza" target="_blank" class="footer__link">Aleksandra Przegendza</a>
+          </p>
+        </div>
+        <div class="footer__logo-box">
+          <a href="https://rs.school/js/" target="_blank" class="course__link">
+            <img src="./assets/svg/rs_school_js.svg" width="100" alt="RS School logo" class="course__logo">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>
